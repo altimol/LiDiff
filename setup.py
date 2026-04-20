@@ -1,4 +1,28 @@
 from setuptools import setup, find_packages
 
-pkg_name = 'lidiff'
-setup(name=pkg_name, version='1.0', packages=find_packages())
+setup(
+    name="lidiff",
+    version="0.1.0",
+    packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        "project_name ": [
+            "*.cu",
+            "*.cpp",
+            "*.h",
+            "*.cuh",
+            "*.sh",
+            "*.txt",
+            "*.yaml",
+            "*.pth",
+            "**/*.cu",
+            "**/*.cpp",
+            "**/*.h",
+            "**/*.cuh",
+            "**/*.sh",
+            "**/*.txt",
+            "**/*.yaml",
+            "**/*.pth",
+        ]
+    },
+)
