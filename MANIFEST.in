@@ -1,9 +1,9 @@
-recursive-include pcn_pytorch *.cu
-recursive-include pcn_pytorch *.cpp
-recursive-include pcn_pytorch *.h
-recursive-include pcn_pytorch *.cuh
-recursive-include pcn_pytorch *.sh
-recursive-include pcn_pytorch *.txt
-recursive-include pcn_pytorch *.yaml
-recursive-include pcn_pytorch *.pth
+recursive-include lidiff *.cu
+recursive-include lidiff *.cpp
+recursive-include lidiff *.h
+recursive-include lidiff *.cuh
+recursive-include lidiff *.sh
+recursive-include lidiff *.txt
+recursive-include lidiff *.yaml
+recursive-include lidiff *.pth
 include README.md
