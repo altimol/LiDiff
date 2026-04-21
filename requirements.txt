@@ -1,4 +1,4 @@
-pytorch3d
+pytorch3d==0.7.4
 ninja==1.10.2.3
 click==8.1.4
 pytorch_lightning==1.5.10
